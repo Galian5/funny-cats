@@ -1,0 +1,6 @@
+<h2><%= link_to cat.title, cat_path(cat) %></h2>
+r
+<p><%= truncate(cat.body, length: 150) %></p>
+
+<p><%= link_to 'Edit', edit_cat_path(cat) %></p>
+<hr>

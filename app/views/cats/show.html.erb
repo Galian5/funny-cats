@@ -1,0 +1,8 @@
+<%= link_to 'All funny kittens', cats_path %>
+<h1><%= @cat.title %></h1>
+
+<%= image_tag(@cat.image.thumb.url, alt: 'Image') if @cat.image? %>
+
+<p><%= @cat.body %></p>
+
+<p><%= link_to 'Edit', edit_cat_path(@cat) %></p>

@@ -37,7 +37,9 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootstrap-sass'
 gem 'carrierwave', '~> 1.0'
 gem 'clearance'
+gem 'file_validators'
 gem 'jquery-rails'
+gem 'mini_magick'
 gem 'rubocop', '~> 0.60.0', require: false
 gem 'will_paginate', '~> 3.1.0'
 
