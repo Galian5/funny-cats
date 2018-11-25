@@ -34,7 +34,7 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-gem 'bootstrap', '~> 4.1.3'
+gem 'bootstrap-sass'
 gem 'carrierwave', '~> 1.0'
 gem 'clearance'
 gem 'jquery-rails'
