@@ -1,0 +1,11 @@
+
+#convenient for me
+Metrics/LineLength:
+  Max: 120
+
+#as not supporting ruby 1.9 and it looks better
+Style/SymbolArray:
+  Enabled: true
+
+Documentation:
+  Enabled: false
