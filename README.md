@@ -6,3 +6,5 @@ Things to do:
 - comments
 - seed with some example funny cats
 - user features?
+- rating cats and sorting by by it
+- pagination (quick one)

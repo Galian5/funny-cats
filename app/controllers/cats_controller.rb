@@ -3,7 +3,7 @@ class CatsController < ApplicationController
   before_action :require_login, only: [:create]
 
   def index
-    @cats = Cat.order('created_at DESC')
+    @cats = Cat.paginate(page: params[:page], per_page: 2)
   end
 
   def show; end
