@@ -38,6 +38,6 @@ class CatsController < ApplicationController
   private
 
   def cat_params
-    params.require(:cat).permit(:title, :body, :image, :image_cache, :remove_image)
+    params.require(:cat).permit(:title, :body, :image, :image_cache)
   end
 end

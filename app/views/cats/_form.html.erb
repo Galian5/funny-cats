@@ -18,12 +18,6 @@
 
   <% if post.image? %>
       <%= image_tag post.image.small_thumb.url %>
-      <div>
-        <%= label_tag :remove_image do %>
-            Remove image
-            <%= f.check_box :remove_image %>
-        <% end %>
-      </div>
   <% end %>
 
   <%= f.submit %>
