@@ -4,5 +4,5 @@ Things to do:
 
 - front-end(make it look neat)
 - comments
-- way to sort out non kitten images (harder one) 
-- user features
+- seed with some example funny cats
+- user features?

@@ -1,20 +1,18 @@
 class CatsController < ApplicationController
-  before_action :set_cat, only: [:show, :edit, :update]
+  before_action :set_cat, only: %i[show edit update]
   before_action :require_login, only: [:create]
 
   def index
     @cats = Cat.order('created_at DESC')
   end
 
-  def show
-  end
+  def show; end
 
   def new
     @cat = Cat.new
   end
 
-  def edit
-  end
+  def edit; end
 
   def create
     @cat = Cat.new(cat_params)
@@ -32,7 +30,6 @@ class CatsController < ApplicationController
       render :edit
     end
   end
-
 
   private
 
